@@ -1,5 +1,5 @@
 # blog/views.py
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.utils import timezone
 from .models import Post
 from django.shortcuts import  get_object_or_404
